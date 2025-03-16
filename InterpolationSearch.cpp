@@ -141,7 +141,7 @@ int main() {
     
     // Sort array using merge sort (interpolation search needs sorted array)
     mergesort(myNums, 0, arraySize - 1);
-    cout << "Sorted ";
+    cout << "\n \n \nSorted ";
     printMyArray(myNums, arraySize);
     
     int searchNumber;
