@@ -97,7 +97,7 @@ int main() {
         // Generate random values (between 1 and 100)
         cout << "Generating " << arraySize << " random numbers..." << endl;
         for (int i = 0; i < arraySize; i++) {
-            myNums[i] = rand() % 100 + 1;
+            myNums[i] = rand() % 100000 + 1;
         }
     } else {
         // Original manual input code
