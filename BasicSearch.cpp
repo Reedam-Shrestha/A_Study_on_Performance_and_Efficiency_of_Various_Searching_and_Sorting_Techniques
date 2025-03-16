@@ -141,16 +141,15 @@ int main() {
     
     // Sort array using merge sort (binary search needs sorted array)
     mergesort(myNums, 0, arraySize - 1);
-    cout << "\n \n \nSorted ";
+    cout << "\nSorted ";
     printMyArray(myNums, arraySize);
-    
     
     while (true) {
         int searchNumber;
         cout << "\nEnter a number to search for (or -1 to quit): ";
         cin >> searchNumber;
         
-        if (searchNumber = -1) {  
+        if (searchNumber == -1) { // FIXED THE CONDITION HERE
             break;
         }
         
